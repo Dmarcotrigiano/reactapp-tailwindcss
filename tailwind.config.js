@@ -7,7 +7,7 @@ module.exports = {
       keyframes: {
         spawnText:{
           "0%": { transform: "translate(200%)", opacity: "0" },
-          "40%": { transform: "translate(200%)", opacity: "0" },
+          "70%": { transform: "translate(200%)", opacity: "0" },
           "90%": { transform: "translate(-10%)", opacity: "100" },
           "100%": { transform: "translate(0%)", opacity: "100" },
         },
@@ -32,9 +32,9 @@ module.exports = {
       },
       animation: {
         spawnText1: "spawnText 10s",
-        spawnText2: "spawnText 25s",
-        spawnText3: "spawnText 30s",
-        spawnText4: "spawnText 35s",
+        spawnText2: "spawnText 16s",
+        spawnText3: "spawnText 22s",
+        spawnText4: "spawnText 28s",
         spawnLeft1: "spawnLeft 1.5s ",
         spawnBot1: "spawnBot 1.5s",
         spawnTop1: "spawnTop 1.5s",

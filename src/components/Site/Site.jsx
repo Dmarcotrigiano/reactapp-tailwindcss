@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import Animations from "./Animations";
 
 const Site = (props) => {
+    const [finished, setFinished] = useState(false)
     const handleAnimationEnd = (spawn$) => {
-        console.log('i finished')
+        setFinished(true);
     }
+
     return (
-    <div class="grid justify-items-center">
+    <div class="grid justify-items-stretch">
 
       <Animations onAnimationEnd={handleAnimationEnd}/>
     </div>

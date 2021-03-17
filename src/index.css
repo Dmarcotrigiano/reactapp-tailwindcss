@@ -1,3 +1,10 @@
+/* .DynamicContainer {
+    background-color: ${props => (props.bgColor ? props.bgColor : "white")};
+    color: ${props => (props.textColor ? props.textColor : "white")};
+    width: 150px;
+    height: 150px;
+} */
+
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;

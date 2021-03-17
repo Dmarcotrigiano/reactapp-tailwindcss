@@ -10,7 +10,7 @@ const Text = (props) => {
   let ran = getRan(animations);
 
   return (
-    <p onAnimationEnd={props.onAnimationEnd} class={`${props.style} animate-spawn${ran}${timer}`}>{props.text}</p>
+    <p onAnimationEnd={props.onAnimationEnd(props.id,props.e)} class={`${props.style} animate-spawn${ran}${timer}`}>{props.text}</p>
   );
 };
 export default Text;
